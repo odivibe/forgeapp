@@ -1,0 +1,24 @@
+# .gitignore
+
+# Dependencies — never commit these, they're huge
+node_modules/
+
+# Environment files — contain secrets, never commit
+.env
+.env.*
+!.env.example        # EXCEPT the example file (template with no real values)
+
+# Build output
+dist/
+build/
+
+# Prisma generated client
+server/node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

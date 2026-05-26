@@ -1,0 +1,6 @@
+/* client/src/index.css */
+/* Add Tailwind's three layers */
+
+@tailwind base;       /* browser resets */
+@tailwind components; /* component classes */
+@tailwind utilities;  /* utility classes (flex, p-4, text-blue-500, etc.) */
